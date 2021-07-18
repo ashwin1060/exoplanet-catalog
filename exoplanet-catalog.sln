@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoplanetCatalog", "exoplanet-catalog\ExoplanetCatalog.csproj", "{6B5C0570-0CE9-47A2-9F03-AB2409E00F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B5C0570-0CE9-47A2-9F03-AB2409E00F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5C0570-0CE9-47A2-9F03-AB2409E00F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5C0570-0CE9-47A2-9F03-AB2409E00F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5C0570-0CE9-47A2-9F03-AB2409E00F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E446F5B5-EA9A-4BE6-A844-2113549FE8AA}
+	EndGlobalSection
+EndGlobal

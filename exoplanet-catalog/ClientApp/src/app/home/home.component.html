@@ -1,0 +1,63 @@
+<div *ngIf="loadingData">
+  <span>Loading Data</span>
+</div>
+
+  <div class="container" *ngIf="!loadingData">
+    <div class="content">
+      <div>
+        <mat-card>
+          <div>
+            <span>Total # of planetary configurations: {{planetConfigurations.length}}</span>
+          </div>
+        </mat-card>
+      </div>
+      <div>
+        <mat-card>
+          <div>
+            <span>Number of orphan planets: {{orphanPlanets}}</span>
+          </div>
+        </mat-card>
+      </div>
+      <div>
+        <mat-card>
+          <div>
+            <span>Planet around the hottest star: {{planet.planetIdentifier}}</span>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+    <div class="content">
+      <div>
+        <mat-form-field appearance="fill">
+          <mat-label>Select Year</mat-label>
+          <mat-select (selectionChange)="onSelectionChange($event)">
+            <mat-option *ngFor="let year of discoveryYears" [value]="year">{{year}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="content">
+      <div>
+        <mat-card>
+          <div>
+            <span># of small planets: {{smallPlanets}}</span>
+          </div>
+        </mat-card>
+      </div>
+      <div>
+        <mat-card>
+          <div>
+            <span># of medium planets: {{mediumPlanets}}</span>
+          </div>
+        </mat-card>
+      </div>
+      <div>
+        <mat-card>
+          <div>
+            <span># of large planets: {{largePlanets}}</span>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+
